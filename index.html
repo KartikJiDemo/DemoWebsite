@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Home</title></head>
+<body>
+    <nav><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="services.html">Services</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a></nav>
+    <h1>Welcome Home</h1>
+    <p id="time"></p>
+
+    <!-- Buttons to go to different pages -->
+    <h2>Explore Site:</h2>
+    <button onclick="window.location.href='about.html'">Go to About</button>
+    <button onclick="window.location.href='services.html'">Go to Services</button>
+    <button onclick="window.location.href='portfolio.html'">Go to Portfolio</button>
+    <button onclick="window.location.href='contact.html'">Go to Contact</button>
+
+    <script>document.getElementById("time").innerText = "Loaded at: " + new Date().toLocaleTimeString();</script>
+</body>
+</html>
